@@ -28,4 +28,5 @@ class MainWindow:
         from gui.clientes_window import ClientesWindow
         ClientesWindow(self.master)
     def abrir_facturacion(self):
-        messagebox.showinfo("Facturación", "Aquí irá la ventana de facturación")
+        from gui.facturacion_window import FacturacionWindow
+        FacturacionWindow(self.master)
